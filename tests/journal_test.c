@@ -54,7 +54,7 @@ int main(void)
 {
 	struct dhara_journal journal;
 	const size_t page_size = 1 << sim_nand.log2_page_size;
-	uint8_t page_buf[page_size];
+	uint8_t page_buf[512];
 	int rep;
 
 	sim_reset();

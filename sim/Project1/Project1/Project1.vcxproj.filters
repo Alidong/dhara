@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dhara">
+      <UniqueIdentifier>{d2999cd4-3adc-4c98-aee0-6b9469bb9bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ecc">
+      <UniqueIdentifier>{c2317fb6-5d4b-4792-abe7-740e50085524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{7cbef020-6882-4071-b9b9-8f4ea992a381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{910cc084-9ec3-4dfd-90bb-2b4f45824864}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\dhara\bytes.h">
+      <Filter>dhara</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dhara\error.h">
+      <Filter>dhara</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dhara\journal.h">
+      <Filter>dhara</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dhara\map.h">
+      <Filter>dhara</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dhara\nand.h">
+      <Filter>dhara</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ecc\bch.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ecc\crc32.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ecc\gf13.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ecc\hamming.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tests\jtutil.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tests\sim.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tests\util.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dhara\error.c">
+      <Filter>dhara</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dhara\journal.c">
+      <Filter>dhara</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dhara\map.c">
+      <Filter>dhara</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ecc\bch.c">
+      <Filter>ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ecc\crc32.c">
+      <Filter>ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ecc\gf13.c">
+      <Filter>ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ecc\hamming.c">
+      <Filter>ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\jtutil.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\sim.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\util.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\journal_test.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

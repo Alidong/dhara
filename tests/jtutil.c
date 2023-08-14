@@ -107,7 +107,7 @@ static void recover(struct dhara_journal *j)
 static int enqueue(struct dhara_journal *j, uint32_t id, dhara_error_t *err)
 {
 	const int page_size = 1 << j->nand->log2_page_size;
-	uint8_t r[page_size];
+	uint8_t r[512];
 	uint8_t meta[DHARA_META_SIZE];
 	dhara_error_t my_err;
 	int i;
@@ -188,7 +188,7 @@ void jt_dequeue_sequence(struct dhara_journal *j, int next, int count)
 			assert(garbage_count < max_garbage);
 		} else {
 			const int page_size = 1 << j->nand->log2_page_size;
-			uint8_t r[page_size];
+			uint8_t r[512];
 
 			assert(id == next);
 			garbage_count = 0;
